@@ -1,0 +1,29 @@
+{
+  "name": "dashboard-odin-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "story:dev": "histoire dev",
+    "story:build": "histoire build",
+    "story:preview": "histoire preview"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@histoire/plugin-svelte": "^0.12.4",
+    "@sveltejs/vite-plugin-svelte": "^2.0.0",
+    "@tsconfig/svelte": "^3.0.0",
+    "babel-loader": "^8.3.0",
+    "histoire": "^0.12.4",
+    "svelte": "^3.55.1",
+    "svelte-check": "^2.10.0",
+    "svelte-loader": "^3.1.4",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0"
+  }
+}
