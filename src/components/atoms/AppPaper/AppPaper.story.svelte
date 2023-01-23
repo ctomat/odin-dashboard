@@ -22,6 +22,21 @@
             </AppPaper>
         </div>
     </Hst.Variant>
+    <Hst.Variant title='Plain Color'>
+        <div class="container">
+            <AppPaper style='Plain Color'>
+                <div>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur 
+                        adipisicing elit. Quisquam debitis in, rem minus 
+                        error, expedita, atque voluptates iure iste ipsum 
+                        illum qui corrupti. Facilis praesentium, quas 
+                        vero sit vel quo
+                    </p>
+                </div>
+            </AppPaper>
+        </div>
+    </Hst.Variant>
 </Hst.Story>
 
 <style>
