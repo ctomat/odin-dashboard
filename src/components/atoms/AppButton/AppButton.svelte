@@ -3,7 +3,7 @@
 
     export let label: string
     export let color: 'Blue' | 'Green' | 'Red';
-    export let details: {text: string}
+    export let details: {text: string} = {text: ''}
 
     const dispatch = createEventDispatcher();
 

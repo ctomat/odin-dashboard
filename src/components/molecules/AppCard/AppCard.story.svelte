@@ -6,7 +6,7 @@
     export let Hst: Hst
 </script>
 
-<Hst.Story title='Components/Atoms/AppCard'>
+<Hst.Story title='Components/Molecules/AppCard'>
     <Hst.Variant title='Default'>
         <AppCard cardTitle='Cool Title' cardBody='Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae recusandae dolorum sunt aut obcaecati delectus sapiente est minus eligendi odio!'/>
     </Hst.Variant>
