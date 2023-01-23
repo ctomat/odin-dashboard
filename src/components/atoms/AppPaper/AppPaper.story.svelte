@@ -24,7 +24,7 @@
     </Hst.Variant>
     <Hst.Variant title='Plain Color'>
         <div class="container">
-            <AppPaper style='Plain Color'>
+            <AppPaper paperStyle='Plain Color'>
                 <div>
                     <p>
                         Lorem, ipsum dolor sit amet consectetur 

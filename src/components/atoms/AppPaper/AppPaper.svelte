@@ -1,9 +1,9 @@
 <script lang="ts">
     export let card = false;
-    export let style: 'Gradient' | 'Plain Color' = 'Gradient'
+    export let paperStyle: 'Gradient' | 'Plain Color' = 'Gradient'
 </script>
 
-<div class={`paper ${style === 'Gradient' ? 'gradient-background' : 'plain-color-background'}`}>
+<div class={`paper ${paperStyle === 'Gradient' ? 'gradient-background' : 'plain-color-background'}`}>
     <slot></slot>
 </div>
 
