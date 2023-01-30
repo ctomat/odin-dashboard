@@ -37,8 +37,6 @@
   }
 
   let lastAnnouncements: announcementType[] = createLastAnnouncements(true);
-
-  console.log(lastAnnouncements, "AAAAA");
 </script>
 
 <div class="announcements-container">
