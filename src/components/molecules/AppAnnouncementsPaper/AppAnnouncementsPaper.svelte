@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { truncate } from "../../../lib/truncate";
+
   import AppPaper from "../../atoms/AppPaper/AppPaper.svelte";
   import AppText from "../../atoms/AppTitle/AppText.svelte";
 
@@ -8,35 +10,7 @@
   };
 
   export let announcements: announcementType[] = [];
-  export let numberOfCharactersToTruncate: number = 0;
-
-  function createLastAnnouncements(useWordBoundary: boolean) {
-    let announcementsList: announcementType[] = announcements.filter(
-      (announcement, index) => index < 3
-    );
-
-    if (!numberOfCharactersToTruncate) {
-      return announcementsList;
-    }
-
-    announcementsList = announcementsList.map((announcement) => {
-      const subString = announcement.description.slice(
-        0,
-        numberOfCharactersToTruncate - 1
-      );
-
-      announcement.description =
-        (useWordBoundary
-          ? subString.slice(0, subString.lastIndexOf(" "))
-          : subString) + "...";
-
-      return announcement;
-    });
-
-    return announcementsList;
-  }
-
-  let lastAnnouncements: announcementType[] = createLastAnnouncements(true);
+  export let textIsTruncate: boolean = false;
 </script>
 
 <div class="announcements-container">
@@ -44,16 +18,18 @@
     <AppText text="Announcements" textType="h3" color="primary" />
   </header>
   <AppPaper paperStyle="Plain Color">
-    {#each lastAnnouncements as announcement, index}
+    {#each announcements as announcement, index}
       <div class="announcement-container">
         <AppText text={announcement.title} textType="h4" color="primary" />
         <AppText
-          text={announcement.description}
+          text={textIsTruncate
+            ? truncate(announcement.description, 90)
+            : announcement.description}
           textType="body"
           color="primary"
         />
       </div>
-      {#if index !== lastAnnouncements.length - 1}
+      {#if index !== announcements.length - 1}
         <div class="divider" />
       {/if}
     {/each}

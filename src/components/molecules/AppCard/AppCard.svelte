@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { truncate } from "../../../lib/truncate";
+
   import AppPaper from "../../atoms/AppPaper/AppPaper.svelte";
   import AppText from "../../atoms/AppTitle/AppText.svelte";
 
@@ -15,7 +17,7 @@
       <AppText color="primary" textType="h3" text={cardTitle} />
     </header>
     <div class="description">
-      <AppText color="primary" textType="body" text={cardBody} />
+      <AppText color="primary" textType="body" text={truncate(cardBody, 130)} />
     </div>
     <div class="controls">
       <figure>

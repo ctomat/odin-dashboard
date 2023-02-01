@@ -35,7 +35,7 @@
   </Hst.Variant>
   <Hst.Variant title="Truncate">
     <AppAnnouncementsPaper
-      numberOfCharactersToTruncate={90}
+      textIsTruncate={true}
       announcements={[
         {
           title: "Ad 1",

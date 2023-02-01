@@ -13,32 +13,32 @@
         {
           cardTitle: "Cool Project Title",
           cardBody:
-            "Lorem ipusim. pdsadpsa. oeopdspadpsa. epsdsapd  ds saawwdsaas wopdsapa",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tincidunt quis quam sed condimentum. Cras a iaculis arcu. In euismod aliquet nisl, in mollis massa viverra ut. Proin lectus odio, maximus sed efficitur nec, vehicula vitae odio.",
         },
         {
           cardTitle: "Cool Project Title",
           cardBody:
-            "Lorem ipusim. pdsadpsa. oeopdspadpsa. epsdsapd  ds saawwdsaas wopdsapa",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tincidunt quis quam sed condimentum. Cras a iaculis arcu. In euismod aliquet nisl, in mollis massa viverra ut. Proin lectus odio, maximus sed efficitur nec, vehicula vitae odio.",
         },
         {
           cardTitle: "Cool Project Title",
           cardBody:
-            "Lorem ipusim. pdsadpsa. oeopdspadpsa. epsdsapd  ds saawwdsaas wopdsapa",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tincidunt quis quam sed condimentum. Cras a iaculis arcu. In euismod aliquet nisl, in mollis massa viverra ut. Proin lectus odio, maximus sed efficitur nec, vehicula vitae odio.",
         },
         {
           cardTitle: "Cool Project Title",
           cardBody:
-            "Lorem ipusim. pdsadpsa. oeopdspadpsa. epsdsapd  ds saawwdsaas wopdsapa",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tincidunt quis quam sed condimentum. Cras a iaculis arcu. In euismod aliquet nisl, in mollis massa viverra ut. Proin lectus odio, maximus sed efficitur nec, vehicula vitae odio.",
         },
         {
           cardTitle: "Cool Project Title",
           cardBody:
-            "Lorem ipusim. pdsadpsa. oeopdspadpsa. epsdsapd  ds saawwdsaas wopdsapa",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tincidunt quis quam sed condimentum. Cras a iaculis arcu. In euismod aliquet nisl, in mollis massa viverra ut. Proin lectus odio, maximus sed efficitur nec, vehicula vitae odio.",
         },
         {
           cardTitle: "Cool Project Title",
           cardBody:
-            "Lorem ipusim. pdsadpsa. oeopdspadpsa. epsdsapd  ds saawwdsaas wopdsapa",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tincidunt quis quam sed condimentum. Cras a iaculis arcu. In euismod aliquet nisl, in mollis massa viverra ut. Proin lectus odio, maximus sed efficitur nec, vehicula vitae odio.",
         },
       ]}
     />
