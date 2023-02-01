@@ -4,9 +4,9 @@
   import AppPaper from "../../atoms/AppPaper/AppPaper.svelte";
   import AppText from "../../atoms/AppTitle/AppText.svelte";
 
-  import EyePlusOutline from "../../../assets/svg/EyePlusOutline.svelte";
-  import SourceBranch from "../../../assets/svg/source-branch.svelte";
-  import StarPlusOutline from "../../../assets/svg/star-plus-outline.svelte";
+  import EyePlusOutline from "../../../assets/svg/EyePlusOutline.svg.svelte";
+  import SourceBranch from "../../../assets/svg/SourceBranch.svg.svelte";
+  import StarPlusOutline from "../../../assets/svg/StarPlusOutline.svg.svelte";
   export let cardTitle: string;
   export let cardBody: string;
 </script>

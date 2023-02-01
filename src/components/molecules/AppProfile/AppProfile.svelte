@@ -1,7 +1,7 @@
 <script lang="ts">
   import AppAvatar from "../../atoms/AppAvatar/AppAvatar.svelte";
   import AppText from "../../atoms/AppTitle/AppText.svelte";
-  import BellRingOutline from "../../../assets/svg/BellRingOutline.svelte";
+  import BellRingOutline from "../../../assets/svg/BellRingOutline.svg.svelte";
 
   export let avatarImage: string;
   export let avatarSize: "Small" | "Medium" | "Big";

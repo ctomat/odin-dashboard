@@ -1,7 +1,7 @@
 <script lang="ts">
   import AppInput from "../../atoms/AppInput/AppInput.svelte";
 
-  import CardSearchOutline from "../../../assets/svg/CardSearchOutline.svelte";
+  import CardSearchOutline from "../../../assets/svg/CardSearchOutline.svg.svelte";
 
   export let value: string = "";
 </script>
