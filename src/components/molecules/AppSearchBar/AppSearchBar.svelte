@@ -1,15 +1,14 @@
 <script lang="ts">
   import AppInput from "../../atoms/AppInput/AppInput.svelte";
-
-  import CardSearchOutline from "../../../assets/svg/CardSearchOutline.svg.svelte";
+  import AppIcons from "../../atoms/AppIcons/AppIcons.svelte";
 
   export let value: string = "";
 </script>
 
 <div class="searchbar-container">
-  <figure>
-    <CardSearchOutline />
-  </figure>
+  <div class="searchbar-icon-container">
+    <AppIcons icon="card-search-outline" iconSize="Big" />
+  </div>
   <div class="input-container">
     <AppInput {value} on:input={() => {}} />
   </div>
@@ -26,10 +25,7 @@
   .input-container {
     width: 100%;
   }
-  figure {
-    width: 40px;
-    height: auto;
-    fill: var(--text-primary-color);
+  .searchbar-icon-container {
     cursor: pointer;
   }
 </style>

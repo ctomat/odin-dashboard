@@ -3,10 +3,8 @@
 
   import AppPaper from "../../atoms/AppPaper/AppPaper.svelte";
   import AppText from "../../atoms/AppTitle/AppText.svelte";
+  import AppIcons from "../../atoms/AppIcons/AppIcons.svelte";
 
-  import EyePlusOutline from "../../../assets/svg/EyePlusOutline.svg.svelte";
-  import SourceBranch from "../../../assets/svg/SourceBranch.svg.svelte";
-  import StarPlusOutline from "../../../assets/svg/StarPlusOutline.svg.svelte";
   export let cardTitle: string;
   export let cardBody: string;
 </script>
@@ -20,15 +18,15 @@
       <AppText color="primary" textType="body" text={truncate(cardBody, 130)} />
     </div>
     <div class="controls">
-      <figure>
-        <EyePlusOutline />
-      </figure>
-      <figure>
-        <StarPlusOutline />
-      </figure>
-      <figure>
-        <SourceBranch />
-      </figure>
+      <div class="icon-container">
+        <AppIcons class="icon" icon="eye-plus-outline" iconSize="Small" />
+      </div>
+      <div class="icon-container">
+        <AppIcons class="icon" icon="star-plus-outline" iconSize="Small" />
+      </div>
+      <div class="icon-container">
+        <AppIcons class="icon" icon="source-branch" iconSize="Small" />
+      </div>
     </div>
   </AppPaper>
 </div>
@@ -105,14 +103,11 @@
     justify-content: center;
     align-items: center;
   }
-  .controls figure {
-    width: 25px;
-    height: auto;
-    fill: var(--text-primary-color);
+  .controls div {
     transition: all ease-in-out 0.1s;
     cursor: pointer;
   }
-  .controls figure:hover {
+  .icon-container :global(.icon):hover {
     transform: scale(1.2);
     fill: var(--text-secondary-color);
   }

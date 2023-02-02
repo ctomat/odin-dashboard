@@ -37,7 +37,7 @@
   };
 </script>
 
-<figure class={iconSize.toLowerCase()}>
+<figure class={`${$$props.class} ${iconSize.toLowerCase()}`}>
   <svelte:component this={iconSelector[icon]} />
 </figure>
 

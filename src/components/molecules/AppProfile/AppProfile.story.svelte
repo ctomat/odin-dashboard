@@ -8,7 +8,7 @@
   export let Hst: Hst;
 </script>
 
-<Hst.Story title="Components/Atoms/AppProfile">
+<Hst.Story title="Components/Molecules/AppProfile">
   <Hst.Variant title="Default">
     <AppProfile
       {avatarImage}

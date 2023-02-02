@@ -7,11 +7,15 @@
 </script>
 
 <Hst.Story title="Components/Molecules/AppSidebarElement">
-  <Hst.Variant title="Default">
-    <AppSidebarElement
-      elementText="Element Text"
-      alt="Element Example"
-      elementIcon={""}
-    />
-  </Hst.Variant>
+  <div class="sidebar-element-container">
+    <Hst.Variant title="Default">
+      <AppSidebarElement elementText="Element Text" icon="star-plus-outline" />
+    </Hst.Variant>
+  </div>
 </Hst.Story>
+
+<style>
+  .sidebar-element-container {
+    padding: 20px;
+  }
+</style>
