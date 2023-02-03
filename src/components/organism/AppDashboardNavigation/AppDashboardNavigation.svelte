@@ -28,9 +28,6 @@
 </div>
 
 <style>
-  .navigation-container {
-    padding: 20px;
-  }
   .search-profile-container {
     display: flex;
     align-items: center;

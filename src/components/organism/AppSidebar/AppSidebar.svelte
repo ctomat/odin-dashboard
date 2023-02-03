@@ -70,7 +70,6 @@
   }
   .sidebar-container {
     background-color: var(--navbar-background-color);
-    width: max(35%, 280px);
     height: 100vh;
   }
 </style>

@@ -57,14 +57,30 @@
       ]}
     />
   </div>
-  <div class="navigation-container">
-    <AppDashboardNavigation
-      username="User Name"
-      {avatarImage}
-      color="primary"
-    />
+  <div class="dashboard-container">
+    <div class="navigation-container">
+      <AppDashboardNavigation
+        username="User Name"
+        {avatarImage}
+        color="primary"
+      />
+    </div>
   </div>
 </main>
 
 <style>
+  .main-container {
+    display: flex;
+    background-color: var(--body-background-color);
+  }
+  .sidebar-container {
+    width: 25%;
+  }
+  .dashboard-container {
+    width: 75%;
+  }
+  .navigation-container {
+    width: 98%;
+    margin: 10px auto;
+  }
 </style>
