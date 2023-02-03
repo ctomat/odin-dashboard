@@ -32,13 +32,15 @@
     "help-box": HelpBox,
     message: Message,
     "note-multiple": NoteMultiple,
-    Home: Home,
+    home: Home,
     Default: "",
   };
 </script>
 
 <figure class={`${$$props.class} ${iconSize.toLowerCase()}`}>
-  <svelte:component this={iconSelector[icon]} />
+  <svelte:component
+    this={iconSelector[icon] ? iconSelector[icon] : iconSelector["Default"]}
+  />
 </figure>
 
 <style>

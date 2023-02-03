@@ -46,9 +46,15 @@ h4,
 h5,
 h6 {
     overflow-wrap: break-word;
+    font-family: "Montserrat", sans-serif;
 }
 
 #root,
 #__next {
     isolation: isolate;
+}
+
+p,
+button {
+    font-family: "Work Sans", sans-serif;
 }
