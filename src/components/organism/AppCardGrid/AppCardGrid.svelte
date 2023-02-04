@@ -25,6 +25,6 @@
   .card-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid: 5px;
+    gap: 30px;
   }
 </style>
