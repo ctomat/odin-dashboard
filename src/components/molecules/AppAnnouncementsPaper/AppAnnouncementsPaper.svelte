@@ -14,13 +14,13 @@
 </script>
 
 <div class="announcements-container">
-  <header>
+  <header class="announcement-title">
     <AppText text="Announcements" textType="h3" color="primary" />
   </header>
   <AppPaper paperStyle="Plain Color">
     {#each announcements as announcement, index}
       <div class="announcement-container">
-        <AppText text={announcement.title} textType="h4" color="primary" />
+        <AppText text={announcement.title} textType="h6" color="primary" />
         <AppText
           text={textIsTruncate
             ? truncate(announcement.description, 90)
@@ -40,12 +40,10 @@
   .announcements-container {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-  }
-  .announcement-container {
-    margin: 20px 0;
+    margin-top: 20px;
   }
   div.divider {
+    margin: 20px 0;
     width: 100%;
     height: 1px;
     background-color: var(--text-primary-color);
