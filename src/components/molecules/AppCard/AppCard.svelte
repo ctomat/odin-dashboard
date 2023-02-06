@@ -33,8 +33,7 @@
 
 <style>
   .card-container {
-    width: max(350px, 80%);
-    height: 200px;
+    width: 100%;
   }
   .card-decoration {
     writing-mode: sideways-lr;

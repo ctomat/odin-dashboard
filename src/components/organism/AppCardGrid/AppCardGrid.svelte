@@ -22,9 +22,14 @@
 </div>
 
 <style>
+  .card-grid-container {
+    height: 100%;
+  }
   .card-grid {
+    height: 90%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto-fit);
     gap: 30px;
   }
 </style>

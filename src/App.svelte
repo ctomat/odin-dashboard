@@ -158,11 +158,11 @@
     background-color: var(--body-background-color);
   }
   .sidebar-container {
-    width: 25%;
+    width: 20%;
     position: fixed;
   }
   .dashboard-container {
-    width: 75%;
+    width: 80%;
     margin-left: auto;
   }
   .navigation-container {
@@ -170,14 +170,11 @@
     margin: 10px auto;
   }
   .info-container {
-    display: flex;
-    gap: 30px;
-  }
-  .announcements-trending {
-    width: 30%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
   }
   .projects-container {
     margin-top: 20px;
-    width: 70%;
   }
 </style>

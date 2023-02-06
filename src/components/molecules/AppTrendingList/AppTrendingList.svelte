@@ -32,13 +32,13 @@
 </div>
 
 <style>
+  .trending-container {
+    margin-top: 20px;
+  }
   .trending {
     margin-bottom: 30px;
   }
   .trending:last-of-type {
     margin-bottom: 0px;
-  }
-  .trending-title {
-    margin-bottom: 20px;
   }
 </style>
